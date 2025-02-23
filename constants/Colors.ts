@@ -5,6 +5,8 @@ export default {
   light: {
     primary: tintColorLight,
     secondary: "#FF0066", // Hot pink
+    secondaryLight: "#FF6699", // Light pink
+    secondaryDark: "#CC0044", // Dark pink
     accent: "#FFCC00", // Bright yellow
     success: "#00CC66", // Vibrant green
     warning: "#FF6600", // Bright orange
@@ -21,6 +23,8 @@ export default {
   dark: {
     primary: tintColorDark,
     secondary: "#FF3399", // Neon pink
+    secondaryLight: "#FF6699", // Light pink
+    secondaryDark: "#CC0044", // Dark pink
     accent: "#FFD700", // Golden yellow
     success: "#00FF7F", // Spring green
     warning: "#FF8C00", // Dark orange

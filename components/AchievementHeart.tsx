@@ -71,10 +71,10 @@ export default function AchievementHeart({
             width: size * 1.5,
             height: size * 1.5,
             backgroundColor: isUnlocked
-              ? "rgba(255, 0, 102, 0.2)"
+              ? Colors.light.secondaryLight
               : nextToUnlocked
-              ? "rgba(255, 0, 102, 0.26)"
-              : "rgba(64, 48, 54, 0.5)",
+              ? Colors.light.secondary
+              : Colors.light.secondaryDark,
           },
         ]}
       >
